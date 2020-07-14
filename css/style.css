@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.center{
+    width: 90%;
+    margin: 0 auto;
+}
+.header{
+    position: fixed;
+    width: 100%;
+    height: 60px;
+    background-color: rgba(0, 0, 100, 0.836);
+    border: 2px solid black;
+    padding: 3px;
+}
+.header img{
+    width: 70px;
+    height: 50px;
+}
+.header h4{
+    font-size: 40px;
+    color: white;
+    float: right;
+    margin-right: 40%;
+}
+.container-banner{
+    width: 100%;
+    height: 500px;
+    background-image: url(../image/imagem.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.formul{
+    background-color: rgba(255, 255, 255, 0.85);
+    background-clip: padding-box;
+    width: 300px;
+    height:calc(100% + 30px);
+    float: right;
+    margin-right: 100px;
+    border: 10px solid rgba(126, 126, 126, 0.6);
+    text-align: center;
+    position: relative;
+    top: 30px;
+}
+.formul input{
+    width: 90%;
+    height: 45px;
+}
+input[type="submit"]{
+    margin: 10px auto;
+    background-color: rgb(100, 100, 100);
+}
+input[type="submit"]:hover{
+    position: relative;
+    left: -5px;
+    top: -5px;
+    border-bottom: 7px solid rgb(71, 71, 71);
+    border-right:  7px solid rgb(71, 71, 71);
+}
+.formul textarea{
+    resize: none;
+    width: 90%;
+    margin: 10px auto;
+}
+.formul h4{
+    margin: 5px auto;
+}
+.container-intro{
+    float: left;
+    width: 60%;
+    margin: 100px 50px;
+    padding: 25px;
+    border: 5px solid rgba(48, 0, 0,0.6);
+    background-color: rgba(61, 60, 83, 0.8);
+    background-clip: padding-box;
+}
+.container-intro ul{
+    list-style-position: inside;
+}
+.container-intro ul li{
+    margin: 25px;
+    color: whitesmoke;
+    font-size: 20px;
+}
+.container-present{
+    padding: 40px 0px;
+    text-align: center;
+    color: #a05656;
+    background-color: #0c063b;
+}
+.container-present h2{
+    text-align: center;
+}
+.container-present p{
+    display: inline-block;
+    margin: 20px 0;
+    text-align: justify ;
+    width: 60%;
+}
+.seta{
+    width: 50px;
+    height: 50px;
+    background-image: url('../image/seta.png');
+    background-size: 50px 50px;
+    position: relative;
+    top: 70px;
+    left: 50%;
+}
+.seção-1{
+    padding: 40px 0px;
+    background-color: #720000d8;
+    color: #050233;
+}
+.seção-1 img{
+    width: 150px;
+    height: 150px;
+    border: 0 auto;
+}
+.seção-1 h1, .seção-1 h2{
+    text-align: center;
+}
+.icon{
+    display: inline-block;
+    width: 350px;
+    margin: 25px;
+    text-align: center;
+}
+.shop-text{
+    background-color: white;
+}
+.rodape{
+    padding: 20px;
+    border: 20px solid #720000d8;
+    text-align: center;
+    color: #050233;
+    font-size: 20px;
+}
