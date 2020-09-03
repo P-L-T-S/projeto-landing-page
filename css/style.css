@@ -36,8 +36,8 @@
 .formul{
     background-color: rgba(255, 255, 255, 0.85);
     background-clip: padding-box;
-    width: 300px;
-    height:calc(100% + 30px);
+    width: 350px;
+    height:calc(100% - 5px);
     float: right;
     margin-right: 100px;
     border: 10px solid rgba(126, 126, 126, 0.6);
@@ -92,7 +92,7 @@ input[type="submit"]:hover{
     background-color: #0c063b;
 }
 .container-present h2{
-    text-align: center;
+    clear: both;
 }
 .container-present p{
     display: inline-block;
